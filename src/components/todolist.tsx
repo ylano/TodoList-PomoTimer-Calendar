@@ -64,7 +64,7 @@ export default function TodoList() {
                 </span>
                 <button
                   onClick={() => removeTask(task.id)}
-                  className=" text-sm font-semibold text-zinc-100 ml-2 p-2 bg-red-500 text-white rounded-lg hover:bg-red-600"
+                  className=" text-sm font-semibold text-zinc-100 ml-2 p-2 bg-red-500 rounded-lg hover:bg-red-600"
                 >
                   Remover
                 </button>
